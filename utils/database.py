@@ -1,11 +1,3 @@
-"""
-database.py
------------
-MongoDB client with transparent in-memory fallback.
-The module exposes a single `db` instance — import that, never
-instantiate MongoDBClient elsewhere.
-"""
-
 from __future__ import annotations
 
 import os
