@@ -1,11 +1,3 @@
-"""
-ollama_client.py
-----------------
-Single interface for all LLM calls.
-Points at the local Ollama instance running llama3.2:3b.
-Every function returns (result: str, success: bool).
-"""
-
 import requests
 import json
 from typing import Generator
